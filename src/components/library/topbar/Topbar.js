@@ -16,12 +16,12 @@ function Topbar() {
             <span>CloudBank.in</span>
         </div>
 
-        <div class="dropdown">
-            <button class="dropbtn">
+        <div className="dropdown">
+            <button className="dropbtn">
                 <span className='firstLetters'>{firstName.charAt() + lastName.charAt()}</span>
                 <span className='username'>{`${firstName} ${lastName}`}</span>
             </button>
-            <div class="dropdown-content">
+            <div className="dropdown-content">
                 <Link to="/settings">Settings</Link>
                 <Link to="/logout">Logout</Link>
             </div>
