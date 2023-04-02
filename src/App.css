@@ -1,0 +1,46 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"); */
+@font-face {
+  font-family: "Avenir";
+  src: local("AvenirLTStd-Black"),url("./fonts/Avenir/AvenirLTStd-Black.otf") format("truetype");
+  font-weight: bold;
+}
+.font-face-avenir{
+  font-family: "Avenir",sans-serif;
+}
+
+/*Basic Settings*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    background: #eff5fe;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+}
+.App{
+    height: 100vh;
+}
+img {
+    max-width: 100%;
+}
+p{
+  margin-bottom: 0 !important;
+}
+a{
+    text-decoration: none !important;
+}
+.innerPage {
+    padding: 60px 30px 30px 30px;
+}
+
+
+
+
+
+
+
+
