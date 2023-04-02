@@ -23,10 +23,10 @@ function StepForm() {
     const moveStep = (tabName,step,tabData) => {
 
         console.log("moveStep data ==> ",tabName,step,tabData);
-        setFinalData({...FinalData,[tabName]:tabData});
 
         let data = {...FinalData,[tabName]:tabData};
-        
+        setFinalData(data);
+
         if (step === ModelData.length) {  // When Last Tab form is submitted
             SaveForm(data);
         } else {
