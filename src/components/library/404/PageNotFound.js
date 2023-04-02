@@ -8,7 +8,7 @@ function PageNotFound() {
         <div>
             <h2>404</h2>
             <p>Page Not Found</p>
-            <Link to='/stepper_form' className='btn_returnToHome'> Return to Add Form</Link>
+            <Link to='/step_form' className='btn_returnToHome'> Return to Add Form</Link>
         </div>
     </div>
   )
