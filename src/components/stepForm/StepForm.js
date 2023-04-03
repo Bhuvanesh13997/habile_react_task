@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useEffect, useState} from 'react';
 import { Stepper } from 'react-form-stepper';
 import './StepForm.css';
 import { toast } from 'react-toastify';
@@ -66,6 +66,8 @@ function StepForm() {
         //     });
         
     }
+
+    useEffect(()=> window.scrollTo(0, 0),[step]);
 
   return (
     <div className='StepperForm innerPage'>

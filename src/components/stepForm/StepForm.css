@@ -107,58 +107,6 @@
 
 
 
-@media screen and (max-width:576px) {
-  .innerPage{
-    padding: 50px 0 0 0;
-  }
-  .stepperContainer{
-    padding: 0 !important;
-  }
-  .stepperHeaders > div{
-    padding: 20px 0 !important;
-  }
-  .stepperHeaders > div > div > div > div{
-    font-size: 0.575rem;
-  }
-  .form {
-    padding: 10px 0 80px 0;
-  }
-  .formMain .formInputs{
-    width: 100%;
-  }
-  .formArea{
-    max-width: 90%;
-    margin: 0 auto;
-  }
-}
-
-
-@media screen and (min-width:576px) and (max-width:768px) {
-  .stepperHeaders > div > div > div > div{
-    font-size: 0.775rem;
-  }
-  .formMain .formInputs:first-child{
-    width: 100%;
-  }
-  .formMain .formInputs{
-    width: 100%;
-  }
-}
-
-
-@media screen and (max-width:991px){
-    footer.btn_panel{
-      background-color: #ffffff;
-      position: fixed;
-    }
-
-    .btn_panel button {
-      padding: 8px;
-      margin: 0 5px;
-      width: 100px;
-    }
-}
-
 
 /*Active,Completed*/
 .active , .completed {
@@ -275,4 +223,72 @@
 }
 .btn_browse{
     color: #086afd;
+}
+
+
+
+
+/*Responsive*/
+
+
+@media screen and (max-width:576px) {
+  .innerPage{
+    padding: 50px 0 0 0;
+  }
+  .stepperContainer{
+    padding: 0 !important;
+  }
+  .stepperHeaders > div{
+    padding: 20px 0 !important;
+  }
+  .stepperHeaders > div > div > div > div{
+    font-size: 0.575rem;
+  }
+  .StepperForm .form {
+    padding: 10px 0 80px 0;
+  }
+  .StepperForm .formMain .formInputs{
+    width: 100%;
+  }
+  .StepperForm .formArea{
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (min-width:576px) and (max-width:768px) {
+  .StepperForm .stepperHeaders > div > div > div > div{
+    font-size: 0.775rem;
+  }
+  .StepperForm .formMain .formInputs:first-child{
+    width: 100%;
+  }
+  .StepperForm .formMain .formInputs{
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width:991px){
+    .dropzone{
+      padding: 20px;
+    }
+    .droppedThumb{
+        width: 100px;
+        height: 100px;
+    }
+    .droppedList .dropzone {
+      width: 100px;
+      height: 100px;
+    }
+    .StepperForm footer.btn_panel{
+      background-color: #ffffff;
+      position: fixed;
+    }
+    .StepperForm .btn_panel button {
+      padding: 8px;
+      margin: 0 5px;
+      width: 100px;
+    }
 }
